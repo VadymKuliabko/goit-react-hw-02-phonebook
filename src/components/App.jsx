@@ -35,7 +35,7 @@ export class App extends Component {
     };
 
     this.setState(({ contacts }) => ({
-      contacts: [contact, ...contacts],
+      contacts: [...contacts, contact],
     }));
   };
 
